@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import requests
 import pickle
-
+import numpy
 movie_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies = pd.DataFrame(movie_dict)
 print(movies)
